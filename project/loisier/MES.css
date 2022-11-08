@@ -1,0 +1,30 @@
+h1
+{
+    border:solid white;
+    padding: 20px;
+    margin-left: -8px;
+    margin-top: -8Px;
+    color: rgba(71, 203, 71, 0.815);
+    background-color: black;
+} 
+.img
+{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    padding-right: 15px;
+    flex-wrap: wrap;
+
+}
+article
+{
+    border: solid 2px black;
+    display: flex;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -8px;
+    margin-top: -8Px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}

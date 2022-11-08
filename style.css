@@ -1,0 +1,260 @@
+* {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body {
+  background: linear-gradient(#3aa5a4, #7ae5e4);
+  margin: 0;
+  padding: 0;
+}
+/* name and subject */
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 65px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.subject {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-size: smaller;
+  font-size: 20px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "lato";
+}
+.name {
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 75px 0;
+  margin: 0;
+}
+.name::before {
+  content: "";
+  background: url(/image/image.iliasanouar01.png) no-repeat center center /
+    cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  background-position: 158px -187px;
+}
+/* conten */
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+  font-weight: 400;
+}
+.date {
+  color: rgb(109, 104, 104);
+  font-family: "lato", sans-serif;
+}
+/* about me */
+.about {
+  background-color: white;
+  height: 400px;
+}
+.about h2 {
+  margin: 0;
+}
+.about img {
+  width: 312.149px;
+  height: 200px;
+  padding: 10px 0px 40px 30px;
+  float: left;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+.about p {
+  font-size: large;
+  font-family: "lato", sans-serif;
+  margin-top: 3px;
+}
+/* project */
+.Projects {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.Projects img {
+  width: 312.149px;
+  height: 200px;
+  background-size: cover;
+}
+.project {
+  display: inline-block;
+}
+.project1 {
+  margin-left: -28px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+.project2 {
+  margin-left: -80px;
+  padding: 0px;
+}
+.project3 {
+  margin-left: -83.999px;
+  padding: 0px;
+}
+.t {
+  margin-left: 30px;
+}
+.title {
+  font-family: "lato", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* work */
+.work {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.work h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  font-weight: 575;
+  margin-bottom: 20px;
+}
+.work p {
+  font-family: "lato", sans-serif;
+}
+.work .date {
+  margin-bottom: -25px;
+}
+.exp {
+  margin-left: 0px;
+}
+/* education */
+.education {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.education .date {
+  margin-bottom: -20px;
+}
+.diplom {
+  display: inline-block;
+  width: 27%;
+}
+.first {
+  margin-left: -28px;
+}
+.terth {
+  margin-left: 20px;
+}
+.education h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  font-weight: 575;
+  margin-bottom: 20px;
+}
+.education p {
+  font-family: "lato", sans-serif;
+  color: rgb(95, 94, 94);
+}
+/* language */
+.language {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.language p {
+  font-family: "lato", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+span {
+  margin-left: -24px;
+  color: gray;
+  font-weight: lighter;
+}
+.lang {
+  display: inline-block;
+}
+.lang3 {
+  margin-left: 100px;
+}
+.lang2 {
+  margin-left: 100px;
+}
+/* social network */
+.social {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+.social01 {
+  display: inline-block;
+  width: 25%;
+}
+.contact01 {
+  margin-left: 20px;
+}
+i {
+  padding: 5.5px;
+  border: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  margin-left: 7px ;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "lato", sans-serif;
+  font-weight: bold;
+  margin-left: -10px;
+}
+a:hover {
+  color: red;
+}
+/* contact */
+.contact {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.contact input,
+textarea {
+  border: none;
+  background-color: #eee;
+  border-radius: 3px;
+  margin: 0px 0px 10px 55px;
+  width: 90%;
+  height: 40px;
+  padding-left: 13px;
+}
+textarea {
+  height: 150px;
+}
+.contact :last-child {
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  padding: 14px 15px ;
+  margin: -1px 0px 50px 55px;
+  cursor: pointer;
+  width: 143px;
+}
+.last {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
