@@ -263,4 +263,8 @@ textarea {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+} 
+
+h1 {
+  color: red;
 }
