@@ -226,9 +226,6 @@ a {
   font-weight: bold;
   margin-left: -10px;
 }
-a:hover {
-  color: red;
-}
 /* contact */
 .contact {
   background-color: white;
