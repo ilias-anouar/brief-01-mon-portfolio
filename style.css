@@ -1,6 +1,8 @@
 * {
   padding-left: 30px;
   padding-right: 30px;
+  scroll-behavior: smooth;
+  transition: 0.3s;
 }
 body {
   background: linear-gradient(#3aa5a4, #7ae5e4);
@@ -88,9 +90,13 @@ h2 {
   padding-bottom: 30px;
 }
 .Projects img {
+  opacity: 0.7;
   width: 312.149px;
   height: 200px;
   background-size: cover;
+}
+.project img:hover{
+  opacity: 1;
 }
 .project {
   display: inline-block;
@@ -251,6 +257,9 @@ textarea {
   margin: -1px 0px 50px 55px;
   cursor: pointer;
   width: 143px;
+}
+.contact :last-child:hover{
+  background-color: red;
 }
 .last {
   color: white;
